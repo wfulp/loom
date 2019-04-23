@@ -1,0 +1,4 @@
+Name: Loom
+Description: knit all outputs from current rmarkdown
+Binding: loom
+Interactive: false
