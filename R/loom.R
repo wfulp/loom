@@ -1,7 +1,5 @@
 #' @export
 loom<-function(){
-    activeDoc<-rstudioapi::getActiveDocumentContext()
+    activeDoc<- rstudioapi::getSourceEditorContext()
     rmarkdown::render(activeDoc$path, output_format = "all")
 }
-
-
